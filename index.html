@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="URF-8">
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Job Application</title>
+        <h1> Job Application Form</h1>
+    </head>
+    <body>
+        <div class="container">
+            <div id="personal-information">
+                <form id="pers-inf-form">
+                    <h1>Personal Information:</h1>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="birthdate">Birthdate:</label><br>
+                    <input type="date" id="birthdate" name="birthdate"><br>
+                </form>
+            </div>
+            <div id="experiences">
+                <form id="experiences-form">
+                    <h1>Experiences:</h1>
+                    <label for="cname">Company Name:</label><br>
+                    <input  type="text" id="cname" name="cname"><br>
+                    <label for="start-year">Start Year:</label><br>
+                    <input  type="number" id="start-year" name="start-year"><br>
+                    <label for="end-year">End Year:</label><br>
+                    <input  type="number" id="end-year" name="end-year"><br>
+                    <h>Still working?</h>
+                    <input type="checkbox" id="checkbox" name="checkbox"><br>
+
+
+                </form>
+
+
+            </div>
+            <div id="expectations">
+                <form id="expectations-form">
+                    <h1>Expectations:</h1>
+                    <label for="salary">Salary:</label><br>
+                    <input type="number" id="salary" name="salary"><br>
+                    <label for="additional">Additional:</label><br>
+                    <textarea id="additional" rows="6" name="additional"></textarea>
+
+
+                </form>
+            </div>
+            
+        </div>
+        <div class="container-button">
+            <button type="button" class="button" id="new-exp-button">Add new experience</button><br>
+            <button type="submit" class="button">SUBMIT</button>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>

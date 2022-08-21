@@ -1,0 +1,53 @@
+body {
+    background-color:#ccbbdd;
+
+}
+h1 {
+    text-align: center;
+}
+#personal-information, #experiences, #expectations {
+    text-align: center;
+    padding-bottom: 3em;
+    
+    
+    }
+
+
+.container {
+    display:flex;
+    border-style: solid;
+    margin: auto;
+    align-content: start;
+    
+}
+.container>div {
+border-style: solid;
+    flex:1;
+   
+    
+}
+.container-button {
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+textarea {
+    resize: none;
+    
+ }
+
+ form>input {
+    margin: 10px;
+    
+ }
+.button {
+    height: 3em;
+    width: 10em;
+    margin: 5px;
+}
+.button:hover {
+    background-color: #a89cc8;
+}
+.input {
+    margin: 7px;
+}
